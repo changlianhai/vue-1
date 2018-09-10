@@ -1,0 +1,23 @@
+1. dependencies与devDependencies之间的区别
+
+        我们在使用npm install 安装模块或插件的时候，有两种命令把他们写入到 package.json 文件里面去，比如：
+
+        –save-dev 安装的 插件，被写入到 devDependencies 对象里面去
+
+        –save 安装的 插件 ，被写入到 dependencies 对象里面去
+
+
+        devDependencies 里面的插件只用于开发环境，不用于生产环境   –save-dev 
+        
+        dependencies 是需要发布到生产环境的。  –save 安装的 插件
+        
+
+2. 安装vant插件:  npm install vant --save  安装到生产环境中 (https://blog.csdn.net/webfront/article/details/80277844)
+
+3.使用vue-i18n实现多语言  (https://blog.csdn.net/joyce_lcy/article/details/78840371)
+        插件 npm install vue-i18n
+
+
+
+
+        
